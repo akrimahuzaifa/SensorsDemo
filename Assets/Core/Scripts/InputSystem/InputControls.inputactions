@@ -1,0 +1,34 @@
+{
+    "name": "InputControls",
+    "maps": [
+        {
+            "name": "Gyroscope",
+            "id": "47947f13-c532-4807-b416-46d5229ac83e",
+            "actions": [
+                {
+                    "name": "GyroscopeValue",
+                    "type": "Value",
+                    "id": "2fd8ce0c-86da-4b72-8677-472ed0bb0eeb",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "12b90121-a5e3-47af-acb8-dbbabdc8dd14",
+                    "path": "<Gyroscope>/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GyroscopeValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

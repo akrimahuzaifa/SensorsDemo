@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Core/Scenes/GyroscopeScene.unity
+    guid: 5be52c56012ec5144b332f86c74bb474
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 163c26a257b23ac4d8e2d7f2e8f0ea16,
+      type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000,
+      guid: ce5a4a1606d5cf947873cd1ba3129d29, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: cdd7d5656d012d740a7edad16b93540f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d45bc9a662d188f43afcf60a16cba26b,
+      type: 2}
