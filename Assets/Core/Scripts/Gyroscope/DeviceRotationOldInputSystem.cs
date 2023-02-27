@@ -28,7 +28,7 @@ public class DeviceRotationOldInputSystem : MonoBehaviour
         Quaternion deviceRotation = Input.gyro.attitude;
 
         // Convert the device rotation from right-handed to left-handed coordinate system
-        deviceRotation = new Quaternion(deviceRotation.x, deviceRotation.y, -deviceRotation.z, -deviceRotation.w);
+        deviceRotation = new Quaternion(deviceRotation.x, 0, -deviceRotation.z, -deviceRotation.w);
 
         // Apply the device rotation to the plane's transform
         transform.rotation = deviceRotation;

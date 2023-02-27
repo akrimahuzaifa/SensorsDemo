@@ -130,6 +130,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6192504515076906064, guid: 73849849f48318e4fadbeadb31e15cfa,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6192504515373785578, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
       propertyPath: m_RootOrder
@@ -190,16 +195,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
-    - target: {fileID: 6192504516477367070, guid: 73849849f48318e4fadbeadb31e15cfa,
+    - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
-      propertyPath: m_Material
-      value: 
+      propertyPath: m_Mass
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73849849f48318e4fadbeadb31e15cfa, type: 3}
 --- !u!1 &6192504515076906063 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6192504515373785581, guid: 73849849f48318e4fadbeadb31e15cfa,
+  m_CorrespondingSourceObject: {fileID: 6192504516477367040, guid: 73849849f48318e4fadbeadb31e15cfa,
     type: 3}
   m_PrefabInstance: {fileID: 6192504515076906062}
   m_PrefabAsset: {fileID: 0}
@@ -212,19 +232,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6192504515076906063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00ce89215520b384cb11e4f0bb95f2d2, type: 3}
+  m_Script: {fileID: 11500000, guid: a2aaecdba32101745a1f11f3e676f585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6192504515076906066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6192504515076906063}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf3fe228543b22148bfaa5a186fd8c53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToRotate: {fileID: 0}
+  moveSpeedModifier: 0.5
