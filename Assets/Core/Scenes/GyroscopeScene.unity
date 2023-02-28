@@ -130,10 +130,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2222254360994983549, guid: 73849849f48318e4fadbeadb31e15cfa,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6192504515076906064, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6192504515373785578, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
@@ -198,22 +203,27 @@ PrefabInstance:
     - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
       propertyPath: m_Constraints
-      value: 64
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6192504516477367041, guid: 73849849f48318e4fadbeadb31e15cfa,
         type: 3}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192504516477367069, guid: 73849849f48318e4fadbeadb31e15cfa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5287
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73849849f48318e4fadbeadb31e15cfa, type: 3}
@@ -230,9 +240,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6192504515076906063}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2aaecdba32101745a1f11f3e676f585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeedModifier: 0.5
+--- !u!114 &6192504515076906070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192504515076906063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72629be0c63efe4b912012aecb3cb46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFlat: 1
+  speed: 50
